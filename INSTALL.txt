@@ -1,0 +1,76 @@
+openVULab Web Component Installation Guide
+==================
+Main Project Site:  http://openvulab.ca
+User Manual:        http://wiki.fluidproject.org/display/fluid/Open+Virtual+Usability+Lab
+Public Project Demo: http://vulab.yorku.ca
+
+
+Required Knowledge
+------------------
+
+	* Basic FTP Knowledge (Uploading Files)
+	* Basic Website Knowledge (what is a subdirectory, am I uploading into the root directory?)
+	* Basic File Editing Knowledge (ability to open a .php file and edit plain text settings)
+	* Basic Database Experience (Ability to import a .sql file into an existing database, what are database
+	  credentials?)
+	* Basic Server Administration Knowledge (Ability to install package)
+
+
+Required Server Packages
+------------------------
+	
+	* PHP 5+
+	* MySQL 4+
+	* Mencoder (Installation of this is explained below under "Additional Server Setup")
+
+
+Setting Up Web Interface
+------------------------
+
+1. Upload All Files
+	* Upload the contents of vulab-0.5.zip into the home directory for your website, this is usually public_html/
+	  or httpdocs/, in this document we will assume you are using public_html as your home directory, and reference
+	  paths to that.
+	  
+	* Your file structure should like something like the following:
+	  (still assuming your using public_html as your home directory for your website)
+	  	
+	  	public_html/admin/
+		public_html/index.php
+		public_html/config.live.php
+		etc....
+		
+	* NOTE: there are options for uploading into a sub-folder of your root directory but this is currently in
+			beta testing! Use at your own risk.
+	
+2. Configure Database
+	* Open public_html/admin/config.live.php
+	
+	* The first options you will see are for "database configuration", fill in all the information listed. (database
+	  name, database user, database password)
+	  
+	* NOTE: Those curious people out there will see the file: public_html/admin/config.localhost.php, which is intended
+			to be used if your installing openVULab on a local server (like, http://vulab.localhost), this config and
+			feature of openVULab is in beta, and is not reccomended for the non-developer vulab expert - its risky business
+			and mostly untested.
+	
+3. Import Database Schema
+	* import the file public_html/database.sql into your mysql database
+	NOTE: this can be done with phpMyAdmin, but this step's background knowledge is part of the required knowledge for this guide.
+	
+4. Create First (Admin) User
+	* Browse to: http://yourdomain.com/admin/signup.php
+	* Fill out the information for the admin user
+	* BE SURE TO SELECT 'RESEARCHER' AS YOUR ACCOUNT TYPE
+	* You will now be emailed your username and password but you can log in right away.
+	* You are now setup with an admin account!
+	
+	NOTE: The first user is automatically the admin user so don't loose this account info or let it get stolen or taken by the social engineers in your network.
+	
+	
+Additional Server Setup
+-----------------------
+
+openVULab requires mencoder (which is part of the MPlayer package) and if you are not comfortable with this please contact your server administrator.
+
+MPlayer Documentation: http://www.mplayerhq.hu/design7/info.html#docs

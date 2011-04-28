@@ -1,0 +1,164 @@
+* {
+	margin:0px;
+	padding:0px;
+	font:9pt Verdana, Sans-Serif;
+	line-height:12pt;
+}
+
+
+/* -----------
+  MAIN BODY 
+----------- */
+
+body {
+	color:#292929;
+	background-image:url(images/bg.gif);
+	background-color:#9C9C9C;
+	background-position:left top;
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+}
+
+a {
+	color:#60772B;
+	border-width:0px 0px 1px 0px;
+	border-style:none none dotted none;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FF0000;
+}
+
+a img {
+	border:none;
+}
+
+strong, b {
+	font-weight:bold;
+}
+
+em, i {
+	font-style:italic;
+}
+
+h1 {
+	color:#FF0000;
+	font-size:12pt;
+}
+
+h2 {
+	color:#292929;
+	font-size:11pt;
+	font-weight:bold;
+}
+
+h3 {
+	color:#306754;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+
+/* -------------
+  PAGE LAYOUT 
+------------- */
+
+#main {
+	background-color:#FFFFFF;
+	width:800px;
+	margin:10px auto;
+	border:5px solid #4C4C4C;
+	overflow:hidden;
+	text-align:left;
+}
+
+
+/* --------
+  BANNER
+-------- */
+
+div#top {
+	width:800px;
+	height:100px;
+	background:url(images/vulabbanner.gif);
+}
+
+
+/* -------------
+  CONTENT BOX
+------------- */
+
+#content {
+	width:800px;
+	margin:0px;
+	padding:0px;	
+}
+
+
+/* ------------
+  LEFT PANEL
+------------ */
+
+div#leftpanel {
+	float:left;
+	width:175px;
+}
+
+
+/* -----------
+  MENU TABS 
+----------- */
+
+ul#menutabs {
+	list-style-type:none;
+}
+
+ul#menutabs li a {
+    display:block;
+    width:175px;
+    padding:10px 0;
+	color:#292929;
+	background:#C5E1D6;
+    border-bottom:1px solid #4C4C4C;
+    font-size:10pt;
+    font-weight:bold;        
+    text-align:center;
+}
+
+ul#menutabs li a:hover {
+	background:#73B098;
+}
+
+ul#menutabs .current_tab a,
+ul#menutabs .current_tab a:hover {
+	color:#292929;
+	background:#F6F6F6;
+}
+
+ul#menutabs .inactive {
+	display:block;
+	width:175px;
+    height:40px;
+	background:#DDE4CE;
+    border-bottom:1px solid #4C4C4C;
+}
+
+
+/* -----------
+  MAIN TEXT 
+----------- */
+
+#text {
+    float:right;
+    width:575px;
+	background:#FFFFFF;
+	font-size:9pt;
+	min-height: 510px;
+	padding:25px 25px 75px 25px;
+}
+
+#partners a {
+	border-width: 0px 0px 0px 0px;
+	border-style: none none none none;
+}
