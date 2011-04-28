@@ -1,0 +1,22 @@
+org.fluidproject.vulab.rascal.utils.http.MultiPartFormOutputStream.java was found
+on the Sun Microsystems Java forum here:
+http://forums.sun.com/thread.jspa?threadID=451245&forumID=31
+
+Sun's terms of use for the forum include the following:
+4. CONTENT SUBMITTED TO SUN
+
+4.1 Sun does not claim ownership of the Content You place on the Website and shall 
+have no obligation of any kind with respect to such Content. Unless otherwise stated 
+herein, or in Sun's Privacy Policy, any Content You provide in connection with this 
+Website shall be deemed to be provided on a nonconfidential basis. Sun shall be free 
+to use or disseminate such Content on an unrestricted basis for any purpose, and You 
+grant Sun and all other users of the Website an irrevocable, worldwide, royalty-free, 
+nonexclusive license to use, reproduce, modify, distribute, transmit, display, perform, 
+adapt, resell and publish such Content (including in digital form). You represent 
+and warrant that you have proper authorization for the worldwide transfer and 
+processing among Sun, its affiliates, and third-party providers of any information 
+that You may provide on the Website.
+
+And when you click Submit to register for a Sun Online Account, you agree to these terms.
+
+Full text available: http://www.sun.com/termsofuse.jsp 
