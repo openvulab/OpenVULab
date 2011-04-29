@@ -5,6 +5,8 @@ User Manual:        http://wiki.fluidproject.org/display/fluid/Open+Virtual+Usab
 Public Project Demo:http://130.63.175.158/admin/manage.php
 Blog:		    http://vulab.wordpress.com/
 
+Twitter address: http://twitter.com/OpenVULab
+
 What is openVULab
 =================
 OpenVULab is tool designed for remote usability research. A unique feature of VULab is that it can record video
