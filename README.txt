@@ -1,8 +1,9 @@
 openVULab 0.5
 ==================
-Main Project Site:  http://openvulab.ca
+Main Project Site:  https://github.com/openvulab/OpenVULab/
 User Manual:        http://wiki.fluidproject.org/display/fluid/Open+Virtual+Usability+Lab
-Public Project Demo: http://vulab.yorku.ca
+Public Project Demo:http://130.63.175.158/admin/manage.php
+Blog:		    http://vulab.wordpress.com/
 
 What is openVULab
 =================
@@ -42,7 +43,7 @@ What's in this Release
 ======================
 
 This release is available as a packaged file.
-    vulab-0.5.zip - deployment bundle
+    vulab-0.5.rar- deployment bundle
     
 Both bundles have the following organization:
 		admin/        Administration interface and support files
@@ -51,7 +52,9 @@ Both bundles have the following organization:
 		locale/       Language files
 		public/       Public interface to taking surveys
 		scripts/      Database and other scripts
-		js/			  Javascript files used in vulab
+		files/	      Videos created by rascal are stored here
+		infusion/     FluidProject Infusion library is here
+		js/	      Javascript files used in vulab
 		index.php	  Core php file that runs your openVULab
 		rascal.jar	  The core RASCAL file that provides the screen/audio capture for surveys
         LICENSE.txt
@@ -64,7 +67,7 @@ Source Code
 -----------
 The full source code for openVULab, including JavaScript, java, and php can be found in our source code repository:
 
-	https://source.fluidproject.org/svn/vulab/
+	https://github.com/openvulab/OpenVULab/
 
 Note that php is a non-compiled language so the package you downloaded IS the source, but the source code for RASCAL
 that was compiled to provide your rascal.jar is located at:
@@ -89,6 +92,7 @@ This is a list of publicly available software that is included in the Fluid bund
 	* jQuery javascript library: http://jquery.com/ (MIT and GPL licensed http://docs.jquery.com/Licensing)
 	* jQuery UI javascript widget library: http://ui.jquery.com/ (MIT and GPL licensed http://docs.jquery.com/Licensing)
 	* MPlayer and Mencoder library: http://www.mplayerhq.hu (GPL licensed http://www.mplayerhq.hu/design7/info.html#license)
+	* FluidProject Infusion javascript Library http://fluidproject.org/products/infusion/
 
     
 Readme
