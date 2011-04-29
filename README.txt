@@ -23,6 +23,8 @@ RASCAL, is the java component of openVULab that facilitates the audio/video capt
 It is nicely packaged into rascal.jar within the deployment bundle and is controlled through javascript.
 (RASCAL's source can be found under the "Source Code" Section)
 
+The source code will be available thtrough GIT as well. 
+
 
 What's New in 0.5
 =================
@@ -130,3 +132,4 @@ Some of the known issues in this release are described here:
 Feature: 
   A descrition of the known issue with the feature listed above, see http://link-to-issue-here.org/VULAB-666
     VULAB-666 Description of the issue from JIRA.
+
